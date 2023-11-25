@@ -1,0 +1,128 @@
+
+.contact_details h1{
+    font-size:2rem;
+    color:#000057;
+    font-weight: 800;
+    margin:30px 0px;
+    font-family: 'Russo One', sans-serif;
+        letter-spacing: 2.2px;
+}
+.contact_info{
+    margin: 10px 9px;
+    padding:10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.contact_info ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:10px;
+    box-sizing: border-box;
+}
+.contact_info ul li{
+    border:2px solid black;
+    padding:15px;
+    width: calc(50% - 15px);
+    background-color: rgb(59 239 246 / 63%);
+    color:black;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+}
+.Icons_here{
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #5353cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.contact_info ul li h3{
+    font-size: 1.2rem;
+    color: #00030d;
+    font-weight: 800;
+}
+@media (max-width:650px) {
+    .contact_info ul li {
+        width: 100%;
+    }
+    .contact_info {
+        margin: 7px 3px;
+    }
+    .contact_info ul li h3 {
+        /* font-size: 0.9rem; */
+        color: #00030d;
+        font-weight: 800;
+    }
+}
+.descrip a{
+    color: #0a0d7a;
+}
+.send_form{
+    padding:10px;
+}
+form{
+    padding:10px;
+    background: #9da3b945;
+    /* margin:20px 15px; */
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.send_form form{
+    display: flex;
+    flex-direction: column;
+}
+.send_form form input{
+    border:2px solid black;
+    padding: 11px;
+    font-size:1rem;
+    margin:10px 0px;
+}
+.send_form form textarea{
+    border:2px solid black;
+    font-size:1rem;
+    height: 149px;
+    margin: 10px 0px;
+}
+.nmail{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    width: 100%;
+}
+.nmail input{
+    width: calc(50% - 11px);   
+    padding-right:10px;
+}
+@media (max-width:650px) {
+    .nmail input{
+        width: 100%;
+    }
+}
+.send_form form input::placeholder{
+    color:black;
+    font-weight: 700;
+    opacity: 0.9;
+}
+.send_form textarea::placeholder {
+    color: black;
+    font-weight: 700;
+    opacity: 0.9;
+    padding-left: 10px;
+}
+.send_form form input[type="submit"]{
+    color:white;
+    background-color: blue;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size:1.3rem;
+    box-sizing: border-box;
+}
+li h3 span {
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 50%;
+}

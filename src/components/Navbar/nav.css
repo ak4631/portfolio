@@ -1,0 +1,109 @@
+
+.nav{
+    color: #000057;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:20px;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    top:0px;
+    right: 0px;
+}
+
+.nav span{
+    font-weight: 900;
+    font-size: x-large;
+}
+span img{
+    width:50px;
+}
+.bar ul{
+    display: flex;
+    margin:10px;
+    align-items: flex-end;
+    justify-content:flex-end;
+    width: 100%;
+}
+.bar ul li{
+    padding-left:10px;
+    color:#000057;
+    font-weight: 900;
+    font-size:1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.bar ul li:active {
+    font-size: small;
+}
+.bar ul li:hover{
+    transition: all ease-in-out 1s;
+    text-decoration: underline;
+}
+
+Link{
+    cursor: pointer;
+}
+
+.hidden{
+    display: flex;
+    border:none;
+}
+.Menu{
+    display: none;
+    position: absolute;
+    right: 27px;
+    font-weight: 800;
+    font-size: x-large;
+    top: 25px;
+}
+@media (max-width:600px) {
+    .nav{
+        flex-direction: column;
+        align-items: flex-start;
+        z-index: 99;
+    }
+    .nav ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .Menu{
+        display: block;
+    }
+
+    .hidden ul{
+        display: none;
+    }
+    .visible{
+        width: 100%;
+        height: 100vh;
+        border: 2px solid black;
+        background-color: whitesmoke;
+    }
+    .visible ul {
+        width: 100%;
+        visibility: visible;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        text-align: end;
+        /* border: 2px solid black; */
+        margin: 42px 0px;
+        padding:10px;
+    }
+    .visible ul li{
+        border-bottom: 2px solid;
+        width: 100%;
+        font-size:2rem;
+        text-align: left;
+        margin:0px;
+        margin-bottom:10px;
+        font-family: 'Josefin Sans', sans-serif;
+    }   
+    
+}
+.active{
+    text-decoration: underline;
+    color:chocolate;
+}

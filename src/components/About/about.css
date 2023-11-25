@@ -1,0 +1,90 @@
+.About-section{
+    /* margin-left:20px; */
+    box-sizing: border-box;
+}
+
+.details h3{
+    font-size:1.3rem;
+    font-weight: 900;
+    color:rgb(9, 188, 129);
+    font-family: 'Montserrat', sans-serif;
+}
+.details p{
+    font-size: 1.2rem;
+    margin: 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.details h1{
+    font-weight: 700;
+    color:#000057;
+    font-size:2rem;
+    margin: 15px 0px;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 2.2px;
+}
+.details h1:nth-child(2){
+    color:red;
+}
+
+.dt1{
+    font-size:1.2rem;
+    color:black;
+    border:2px solid black;
+    padding:12px 12px;
+    margin-bottom:10px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.dt1 h3 {
+    color: black;
+    font-size: 1.3rem;
+}
+.interest ul{
+    display: flex;
+    justify-content: space-between;
+}
+.coding-profiles ul{
+    display: flex;
+    gap:20px;
+    margin: 5px 0px;
+    margin-top:10px;
+}
+hr{
+    width: 100%;
+    align-items: center;
+    border:1px solid black;   
+    margin:5px 0px;
+}
+.sk ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sk{
+    /* border: 1px solid blue; */
+    padding:10px;
+}
+.sk h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color:rgb(16 77 82);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.sk ul li{
+    margin:10px 0px;
+    margin-right:10px;
+    padding:6px;
+    border-radius: 8px;
+    background-color: black;
+    color:yellow;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.sk ul li:hover{
+    background-color: blue;
+    color:white;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    transform: scale(1.2);
+}

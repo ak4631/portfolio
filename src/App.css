@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Montserrat:wght@500&family=Mukta&family=Russo+One&display=swap');
+main{
+    padding:0px;
+    margin: 0px;
+}
+
+.main_content{
+    padding: 0px;
+    height: 100%;
+    box-sizing: border-box;
+    margin:0px 30px;
+}
+.App-header{
+    width: 100%;
+    margin: 0px 0px;
+}
