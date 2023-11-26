@@ -5,7 +5,7 @@ import urlShot from "./images/UrlShort.png";
 import weatherApp from "./images/Weather_App.png";
 import magma from "./images/Magma.png";
 import timeline from "./images/Timeline.png";
-import headlines from "./images/Healines.png";
+import chrome_logo from "./images/Chrome-Logo (1).jpg";
 
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -165,8 +165,8 @@ const Project = () => {
             </div>
           </div>
           <div className="project_details">
-            <div className="left_pro">
-              <img src={headlines} alt="Project_image"></img>
+            <div className="left_pro adjust">
+              <img src={chrome_logo} alt="Project_image"></img>
             </div>
             <div className="right_pro">
               <h2>Chrome Extensions</h2>

@@ -38,6 +38,9 @@
     object-fit: cover;
     border-radius: 10px;
 }
+.adjust img{
+    width:460px;
+}
 .project_area{
     display: flex;
     flex-wrap: wrap;
