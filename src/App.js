@@ -2,7 +2,6 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Project from "./components/Projects/Project";
-import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
 import { BrowserRouter } from "react-router-dom";
 import Home from "./components/LandingPage/Home";

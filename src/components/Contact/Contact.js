@@ -90,7 +90,7 @@ const Contact = () => {
               <input type="email" name="user_email" placeholder="Email" />
             </div>
 
-            <input type="email" name="user_subject" placeholder="Subject" />
+            <input type="text" name="user_subject" placeholder="Subject" />
 
             <textarea name="message" placeholder="Message Here" />
             <input type="submit" value="Send" />
