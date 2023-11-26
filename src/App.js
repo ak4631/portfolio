@@ -17,7 +17,6 @@ function App() {
           <div className="main_content">
             <About />
             <Project />
-            <Skills />
             <Contact />
           </div>
         </main>
