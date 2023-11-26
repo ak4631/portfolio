@@ -5,6 +5,8 @@ import urlShot from "./images/UrlShort.png";
 import weatherApp from "./images/Weather_App.png";
 import magma from "./images/Magma.png";
 import timeline from "./images/Timeline.png";
+import headlines from "./images/Healines.png";
+
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCodeBranch, faCircle } from "@fortawesome/free-solid-svg-icons";
@@ -164,10 +166,7 @@ const Project = () => {
           </div>
           <div className="project_details">
             <div className="left_pro">
-              <img
-                src="https://static.toiimg.com/photo/51983946.cms?imglength=175405"
-                alt="Project_image"
-              ></img>
+              <img src={headlines} alt="Project_image"></img>
             </div>
             <div className="right_pro">
               <h2>Chrome Extensions</h2>
