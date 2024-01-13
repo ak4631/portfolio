@@ -15,7 +15,7 @@ const Home = () => {
             <h2>A Student and Devloper</h2>
             <div className="Btns">
               <button>
-                <Link to="https://link.storjshare.io/s/jug67nclgfhmtwfleeulz3aqpkxa/demo-bucket%2FMy%20Resume.pdf">Resume</Link>
+                <Link to="https://yellow-francyne-95.tiiny.site/">Resume</Link>
               </button>
 
               <button>
