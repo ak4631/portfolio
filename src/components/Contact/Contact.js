@@ -75,10 +75,6 @@ const Contact = () => {
                   style={{ fontSize: "20px" }}
                 />
               </div>
-              <div className="descrip">
-                <h3>Phone</h3>
-                <Link to="tel:+919136831459">+91 9136831459</Link>
-              </div>
             </li>
           </ul>
         </div>
