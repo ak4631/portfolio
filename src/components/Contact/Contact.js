@@ -68,14 +68,6 @@ const Contact = () => {
                 <p>Thane,India</p>
               </div>
             </li>
-            <li>
-              <div className="Icons_here">
-                <FontAwesomeIcon
-                  icon={faPhoneVolume}
-                  style={{ fontSize: "20px" }}
-                />
-              </div>
-            </li>
           </ul>
         </div>
         <div className="send_form">
