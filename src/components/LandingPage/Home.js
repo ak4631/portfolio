@@ -15,7 +15,7 @@ const Home = () => {
             <h2>A Student and Devloper</h2>
             <div className="Btns">
               <button>
-                <Link to="https://yellow-francyne-95.tiiny.site/">Resume</Link>
+                <Link to="https://ak4631re.tiiny.site/">Resume</Link>
               </button>
 
               <button>
