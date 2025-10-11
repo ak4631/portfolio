@@ -15,7 +15,6 @@ const Home = () => {
             <h2>A Student and Devloper</h2>
             <div className="Btns">
               <button>
-                // <Link to="https://ik.imagekit.io/t0cdxxekm/Akash_Tiwari_Resume___1-1_8ZcyOYEhc.pdf">Resume</Link>
                 <a href = "https://ik.imagekit.io/t0cdxxekm/Akash_Tiwari_Resume___1-1_8ZcyOYEhc.pdf" target="_blank">Resume</a>
               </button>
 
